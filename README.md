@@ -3,6 +3,16 @@
 This code is from two videos - JWT authentication in Rust
 and Yew (Build Front Ends with Rust).
 
+## Instructions
+- cd into the front end folder and run `trunk build`
+- then run `trunk serve --port 3000`
+- open your web browser on `localhost:3000`
+- cd into backend folder and run `docker-compose up -d`
+- ensure sqlx-cli is installed `cargo install sqlx-cli`
+- then run `sqlx migrate run`
+- then run `cargo run`
+- you can also run the backend directly, without the front-end with the collections `Rust HS256 JWT.postman_collection.json`
+
 ## Topics Covered backend
 
 - Run the Actix-Web JWT Project Locally
